@@ -38,3 +38,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :test do
+  gem 'rspec-rails', '~> 2.14.2'
+  gem 'capybara', '~> 2.2.1'
+end
